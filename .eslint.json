@@ -1,0 +1,19 @@
+{
+    "parserOptions": {
+        "ecmaVersion": 7
+    },
+    "env": {
+        "es6": true,
+        "node": true
+    },
+    "rules": {
+        "generator-star-spacing": [
+            "error",
+            {
+                "before": true,
+                "after": false
+            }
+        ]
+    },
+    "extends": "eslint:recommended"
+}
